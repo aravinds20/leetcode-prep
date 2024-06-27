@@ -4,6 +4,7 @@ package com.aravind.math;
 Problem statement - Find first and last digits of a number
 Following two approaches - divide until num > 10 and get that number and mod to get the final digit.
 Second - converting numbers to string and using its library functions.
+Ref- https://www.geeksforgeeks.org/find-first-last-digits-number/
  */
 
 public class LastDigit {
