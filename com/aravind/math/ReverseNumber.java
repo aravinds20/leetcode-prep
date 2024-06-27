@@ -10,9 +10,9 @@ public class ReverseNumber {
         int num = 123456;
         int reverseNumber = 0;
         while(num != 0) {
-            reverseNumber = (num % 10) *10;
+            int remainder = num%10;
+            reverseNumber = reverseNumber * 10 +remainder;
             num = num/10;
-            reverseNumber = reverseNumber + num /10;
         }
         System.out.println(reverseNumber);
     }
